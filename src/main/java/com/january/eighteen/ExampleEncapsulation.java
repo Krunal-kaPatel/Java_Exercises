@@ -1,9 +1,12 @@
 package com.january.eighteen;
 class Account
-{
+{	//using private keyword we can do data hiding.
 	private int accNo;
 	private String name,email;
 	private long ammount;
+	//using getter seater method we can access the private variable.
+	//if any components follows data hiding under abstraction is called encapsulation.
+	//encapsulation = data hiding + abstraction.
 	public int getAccNo() {
 		return accNo;
 	}

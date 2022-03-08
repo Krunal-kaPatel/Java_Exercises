@@ -9,9 +9,9 @@ class FullDetails
 		this.id = id;
 		this.name = name;
 		this.course = course;
-	}
+	}//we can say it is constructor over loading. 
 	FullDetails(int id,String name,String course,float fee)
-	{
+	{//also called constructor chaining.
 		this(id,name,course);//we can reuse the constructor using this keyword, but the ()this must be the first statement in the constructor.  
 		this.fee =fee;
 	}
