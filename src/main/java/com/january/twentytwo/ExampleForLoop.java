@@ -2,7 +2,7 @@ package com.january.twentytwo;
 
 public class ExampleForLoop {
 	public static void main(String args[])
-	{
+	{//entry control loop
 		//simple for loop
 		for(int i=0;i<=10;i++)
 		{
